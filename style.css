@@ -1,0 +1,56 @@
+.page {
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  color: #f16059;
+  font-family: "Lobster", sans-serif;
+}
+
+.ball {
+position: relative;
+}
+.ball img{
+  width: 100%;
+  max-width: 640px;
+}
+.answer {
+  color: #222;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 38%;
+  left: 46%;
+  width: 11%;
+  font-size: 80%;
+}
+
+#questionButton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-size: 30px;
+  color: #f8f8f8;
+  background-color: #f16059;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 16px;
+  width: 80%;
+  max-width: 240px;
+  margin-top: 16px;
+}
